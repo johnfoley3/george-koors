@@ -1,0 +1,20 @@
+{
+  "name": "george-koors",
+  "version": "0.0.0",
+  "homepage": "https://github.com/johnfoley3/george-koors",
+  "authors": [
+    "John Foley <johnfoley3@gmail.com>"
+  ],
+  "license": "none",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.1"
+  }
+}
