@@ -91,6 +91,6 @@ jQuery(function ($) {
 
     var randomIndex = 1 + Math.floor(Math.random() * quotes.length);
     console.log(randomIndex);
-    $("#quotes").html(quotes[randomIndex]);
+    $(".quotes").html(quotes[randomIndex]);
   });
 });
