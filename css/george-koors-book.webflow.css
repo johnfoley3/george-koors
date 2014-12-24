@@ -383,6 +383,7 @@ p {
     margin-left: 0px;
     border-top-left-radius: 2px;
     border-bottom-left-radius: 2px;
+    height: auto;
   }
   .subtitle {
     padding-bottom: 36px;
