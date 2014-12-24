@@ -87,10 +87,17 @@ jQuery(function ($) {
   quotes.push("Whatever truth or Truth Malcolm presented to him, he would have no chance of verifying its basis " +
   "in reality. Patrick was no inventor, but he could alter subtly the facets of his life he chose to.");
 
-  $( document ).ready(function() {
+  function generateQuote() {
 
     var randomIndex = 1 + Math.floor(Math.random() * quotes.length);
     console.log(randomIndex);
     $(".quotes").html(quotes[randomIndex]);
+  }
+
+  document.getElementById("anotherQuote").addEventListener("click", generateQuote, false);
+
+  $( document ).ready(function() {
+
+    generateQuote();
   });
 });

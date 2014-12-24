@@ -11,6 +11,11 @@ body {
   line-height: 20px;
   text-align: center;
 }
+.quotes {
+  margin-bottom: 50px;
+  margin-right: 10%;
+  margin-left: 10%;
+}
 h1 {
   margin: 10px 0px;
   font-family:'Roboto Condensed', sans-serif;
